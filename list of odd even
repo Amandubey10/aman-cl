@@ -1,0 +1,7 @@
+list=[]
+for i in range(1,11):
+    a=int(input('number toappend'))
+    if a % 2==0:
+        list.append(a)
+for num in list:
+            print(num)
