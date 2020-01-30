@@ -1,0 +1,9 @@
+list=[]
+a=1
+while a!=0:
+    a=int(input("enter first no"))
+    if a%2==0:
+        list.append(a)
+        
+for num in list:
+  print (num)
